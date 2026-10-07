@@ -2,6 +2,8 @@
 
 **Discover what's being built in Vancouver.**
 
+**Live demo: [nweinberg97.github.io/VanRadar](https://nweinberg97.github.io/VanRadar/)**
+
 VanRadar is a lightweight discovery radar for the Vancouver tech ecosystem. Open it and start finding companies you didn't know existed — no accounts, no onboarding, no profiles.
 
 Each company is intentionally tiny:
@@ -31,7 +33,11 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-It deploys as-is to GitHub Pages, Netlify, Vercel or any static host.
+It deploys as-is to any static host.
+
+### GitHub Pages
+
+The live demo is served by GitHub Pages straight from the repo: **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)`**. There's no build step, so no Actions workflow is needed; every push to `main` redeploys within a minute or two. The empty `.nojekyll` file tells Pages to serve the files as-is.
 
 ## Project layout
 
