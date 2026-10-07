@@ -279,7 +279,7 @@
     }
 
     // blips
-    const dot = Math.max(2, size / 75);
+    const dot = Math.max(1.6, size / (DATA.length > 100 ? 95 : 75));
     DATA.forEach((d) => {
       const on = visible.has(d.id);
       let glow = 0.75;

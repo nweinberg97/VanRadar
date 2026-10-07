@@ -46,6 +46,7 @@ index.html          page shell
 styles.css          design tokens + layout (light/dark)
 app.js              search, filters, feed rendering, radar scope
 data/companies.js   the seed index
+favicon.svg         logo / favicon (radar mark), plus PNG versions for older browsers and iOS
 ```
 
 ## Adding a company
@@ -62,7 +63,7 @@ Inclusion bar: headquartered or substantially operating in Greater Vancouver, bu
 
 ## About the data
 
-The seed index is hand-curated from public information as of October 2026. Companies change — get acquired, rebrand, move — so treat entries as a starting point and correct them freely. Marks are generated monograms rather than official logos.
+The index holds 196 companies: established names plus about 150 smaller startups found through Vancouver accelerators and ecosystem sources (Creative Destruction Lab, Foresight Canada, e@UBC, SFU VentureLabs, Life Sciences BC, Y Combinator, Techcouver, BetaKit). Each startup was checked for a Greater Vancouver base, an active and independent business, and a working website as of October 2026. Companies change — get acquired, rebrand, move — so treat entries as a starting point and correct them freely. Marks are generated monograms rather than official logos.
 
 ## Roadmap
 
